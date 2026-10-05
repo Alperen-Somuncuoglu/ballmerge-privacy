@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Ball Merge Classic Privacy</title>
+<style>
+  :root{
+    --bg:#faf6ee;
+    --surface:#ffffff;
+    --border:#e7ddc9;
+    --text:#2b2114;
+    --text-dim:#6b6050;
+    --accent:#c8641f;
+    --accent-soft:#f3e3d0;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --bg:#1b1712;
+      --surface:#231e17;
+      --border:#3a3226;
+      --text:#f2ead9;
+      --text-dim:#b6a98f;
+      --accent:#e28a44;
+      --accent-soft:#3a2a1a;
+      color-scheme: dark;
+    }
+  }
+  :root[data-theme="dark"]{
+    --bg:#1b1712;
+    --surface:#231e17;
+    --border:#3a3226;
+    --text:#f2ead9;
+    --text-dim:#b6a98f;
+    --accent:#e28a44;
+    --accent-soft:#3a2a1a;
+    color-scheme: dark;
+  }
+
+  body{
+    margin:0;
+    background:var(--bg);
+    color:var(--text);
+    font-family: 'Source Sans 3', -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    padding-inline:20px;
+    padding-block: 40px 64px;
+    line-height:1.6;
+  }
+  a{color:var(--accent)}
+
+  .wrap{max-width:720px;margin:0 auto}
+
+  .eyebrow{
+    display:inline-flex;align-items:center;gap:8px;
+    font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;
+    color:var(--accent);
+    background:var(--accent-soft);
+    padding:5px 12px;border-radius:999px;
+    margin-bottom:16px;
+  }
+  .icon-dot{width:7px;height:7px;border-radius:999px;background:var(--accent)}
+
+  h1{
+    font-family: 'Fraunces', Georgia, serif;
+    font-size:clamp(28px,6vw,40px);
+    line-height:1.1;
+    margin:0 0 6px;
+    text-wrap:balance;
+  }
+  .sub{color:var(--text-dim);font-size:15px;margin:0 0 36px}
+
+  .card{
+    background:var(--surface);
+    border:1px solid var(--border);
+    border-radius:16px;
+    padding:clamp(20px,4vw,36px);
+  }
+
+  h2{
+    font-family:'Fraunces', Georgia, serif;
+    font-size:20px;
+    margin:36px 0 10px;
+    padding-top:20px;
+    border-top:1px solid var(--border);
+    text-wrap:balance;
+  }
+  h2:first-child{margin-top:0;padding-top:0;border-top:none}
+
+  p{margin:0 0 14px;font-size:15.5px}
+  ul{margin:0 0 14px;padding-left:20px}
+  li{margin-bottom:8px;font-size:15.5px}
+
+  .contact{
+    display:flex;flex-wrap:wrap;gap:10px 24px;
+    margin-top:10px;
+    font-size:14.5px;
+  }
+  .contact div{display:flex;flex-direction:column;gap:2px;min-width:0}
+  .contact span{color:var(--text-dim);font-size:12px;text-transform:uppercase;letter-spacing:.06em}
+</style>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+<div class="wrap">
+  <span class="eyebrow"><span class="icon-dot"></span>Gizlilik Politikası</span>
+  <h1>Ball Merge Classic</h1>
+  <p class="sub">Son güncelleme: 5 Ekim 2026</p>
+
+  <div class="card">
+
+    <h2>Genel Bakış</h2>
+    <p>Ball Merge Classic ("Oyun"), bağımsız bir geliştirici tarafından yapılmış, aynı boyuttaki spor toplarını birleştirerek oynanan mobil bir bulmaca oyunudur. Bu sayfa, Oyunu kullanırken hangi bilgilerin toplandığını ve nasıl kullanıldığını açıklar.</p>
+
+    <h2>Toplanan Veriler</h2>
+    <p>Oyun, hesap oluşturmanızı, e-posta adresi veya kişisel bilgi girmenizi gerektirmez. Aşağıdaki veriler cihazınızda yerel olarak saklanır:</p>
+    <ul>
+      <li>En yüksek skorunuz, açtığınız başarımlar, seviyeniz ve top koleksiyonunuz</li>
+      <li>Ses, titreşim ve dil tercihleriniz</li>
+    </ul>
+    <p>Bu yerel veriler yalnızca cihazınızda tutulur; Oyunu silerseniz bu veriler de silinir. Çevrimiçi liderlik tablosu için sunucuya gönderilen veriler aşağıda ayrıca açıklanmıştır.</p>
+
+    <h2>Çevrimiçi Liderlik Tablosu (Unity Gaming Services)</h2>
+    <p>Oyun, tüm oyuncuların birlikte yer aldığı bir liderlik tablosu sunmak için Unity Technologies'in Unity Gaming Services (Authentication ve Leaderboards) hizmetlerini kullanır. Oyunun açılışında ve tabloyu açtığınızda internet bağlantısı gerekir. Bu hizmete şu veriler gönderilir:</p>
+    <ul>
+      <li>Oyun ilk açıldığında otomatik oluşturulan <strong>anonim bir oyuncu kimliği</strong>. Adınız, e-posta adresiniz veya hesabınızla ilişkili değildir.</li>
+      <li>Sizin yazmadığınız, otomatik oluşturulan <strong>rastgele bir oyuncu adı</strong>.</li>
+      <li>Oyundaki <strong>en yüksek skorunuz</strong>.</li>
+    </ul>
+    <p>Oyuncu adınız ve skorunuz liderlik tablosunu açan diğer oyuncular tarafından görülebilir. Bu veriler, Unity tarafından kendi gizlilik politikasına göre işlenir:</p>
+    <ul>
+      <li><a href="https://unity.com/legal/privacy-policy" target="_blank" rel="noopener">Unity Gizlilik Politikası</a></li>
+    </ul>
+    <p>Oyunu cihazınızdan silmek, sunucudaki skor kaydını kendiliğinden silmez. Anonim oyuncu kimliğinizin ve skorunuzun liderlik tablosundan silinmesini isterseniz aşağıdaki "Veri Silme Talebi" bölümündeki adımları izleyin.</p>
+
+    <h2>Reklamlar (Google AdMob)</h2>
+    <p>Oyun, reklam göstermek için Google AdMob kullanır (örneğin ödüllü reklamlar izleyerek oyun içi bonuslar kazanma). AdMob, reklamları göstermek ve ölçmek için reklam kimliği, cihaz bilgileri ve yaklaşık konum gibi bazı verileri toplayabilir. Bu veriler doğrudan bizim tarafımızdan değil, Google tarafından, kendi gizlilik politikasına göre işlenir:</p>
+    <ul>
+      <li><a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Gizlilik Politikası</a></li>
+      <li><a href="https://support.google.com/admob/answer/6128543" target="_blank" rel="noopener">Google AdMob ve Veri Kullanımı</a></li>
+    </ul>
+
+    <h2>Çocukların Gizliliği</h2>
+    <p>Oyun, genel bir kitleye yöneliktir ve bilhassa 13 yaş altı çocuklardan kişisel veri toplamayı hedeflemez. Liderlik tablosunda görünen oyuncu adları otomatik oluşturulur, oyuncular serbest metin giremez. Bir ebeveyn veya vasi, çocuklarının bize bilgi sağladığını düşünüyorsa lütfen aşağıdaki iletişim bilgisinden bize ulaşsın, ilgili veriler AdMob ve Unity tarafındaki ayarlarımıza göre ele alınır.</p>
+
+    <h2>Veri Güvenliği</h2>
+    <p>Cihazınızda tutulan oyun verileri (skor, başarımlar, ayarlar) cihazınızın kendi depolama alanında saklanır. Liderlik tablosu için gönderilen veriler güvenli bağlantı (HTTPS) üzerinden Unity'nin hizmetlerine iletilir. Oyun herhangi bir kullanıcı hesabı, e-posta adresi veya ad-soyad bilgisi istemez veya saklamaz.</p>
+
+    <h2 id="veri-silme">Veri Silme Talebi</h2>
+    <p>Ball Merge Classic, geliştirici Alplay tarafından yayımlanır. Liderlik tablosuna gönderilen verilerinizin silinmesini şu adımlarla talep edebilirsiniz:</p>
+    <ul>
+      <li><strong>1.</strong> <em>alpisomun61@gmail.com</em> adresine, konu satırı "Veri Silme Talebi – Ball Merge Classic" olan bir e-posta gönderin.</li>
+      <li><strong>2.</strong> E-postada, oyunun liderlik tablosunda görünen <strong>oyuncu adınızı</strong> (örneğin "ParlakTilki#4821" biçiminde) yazın. Oyuncu adınız, kaydınızı bulmamızı sağlayan tek bilgidir.</li>
+      <li><strong>3.</strong> Talebiniz en geç 30 gün içinde işleme alınır ve size e-posta ile bildirilir.</li>
+    </ul>
+    <p><strong>Silinen veriler:</strong> Liderlik tablosundaki oyuncu kaydınız; yani anonim oyuncu kimliğiniz, otomatik oluşturulan oyuncu adınız ve skorunuz.</p>
+    <p><strong>Silinmeyen veriler:</strong> Cihazınızda yerel olarak tutulan oyun verileri (skor, başarımlar, ayarlar) sizin kontrolünüzdedir ve Oyunu silerek kaldırabilirsiniz. Google AdMob tarafından işlenen reklam verileri Google'ın kendi politikasına tabidir. Unity'nin sistemlerindeki yedek kopyaların silinme süresi Unity'nin gizlilik politikasına tabidir.</p>
+    <p><strong>Ek saklama süresi:</strong> Silme talebiniz onaylandıktan sonra oyuncu kaydınızı kendi tarafımızda ayrıca saklamayız.</p>
+
+    <h2>Politika Değişiklikleri</h2>
+    <p>Bu gizlilik politikası zaman zaman güncellenebilir. Önemli değişiklikler bu sayfada yayımlanacak, sayfanın üstündeki "son güncelleme" tarihi buna göre değişecektir.</p>
+
+    <h2>İletişim</h2>
+    <p>Bu politikayla ilgili sorularınız veya veri silme talepleriniz için bize ulaşabilirsiniz:</p>
+    <div class="contact">
+      <div><span>E-posta</span>alpisomun61@gmail.com</div>
+      <div><span>Uygulama</span>Ball Merge Classic</div>
+      <div><span>Geliştirici</span>Alplay</div>
+    </div>
+
+  </div>
+</div>
+</body>
+</html>
